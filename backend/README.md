@@ -97,3 +97,38 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+API Endpoints
+
+Questions
+
+POST /questions — yangi savol qo‘shish
+GET /questions — barcha savollarni olish
+GET /questions/{id} — bitta savolni olish
+PATCH /questions/{id} — savolni yangilash
+DELETE /questions/{id} — savolni o‘chirish
+
+Attempts
+
+POST /attempts — yangi urinish yaratish
+GET /attempts — barcha urinishlarni olish
+GET /attempts/{id} — bitta urinishni olish
+PATCH /attempts/{id} — urinishni yangilash
+DELETE /attempts/{id} — urinishni o‘chirish
+
+AttemptAnswer
+
+POST /attempt-answer — javobni qo‘shish
+GET /attempt-answer — barcha javoblarni olish
+GET /attempt-answer/attempt/{attemptId} — bitta urinish javoblarini olish
+GET /attempt-answer/{id} — bitta javobni olish
+PATCH /attempt-answer/{id} — javobni yangilash
+DELETE /attempt-answer/{id} — javobni o‘chirish
+
+## API Hujjatlari
+
+Loyihamizdagi barcha API endpointlar Swagger yordamida hujjatlashtirilgan.  
+Swagger UI’ni ishga tushirish uchun serverni ishga tushiring va quyidagi manzilga kirishingiz mumkin:  
+
+[Swagger UI](http://localhost:3001/api/docs)
